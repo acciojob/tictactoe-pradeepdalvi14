@@ -1,1 +1,52 @@
 /*  your css code here. If applicable */
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 300px;
+      margin: 40px auto;
+      text-align: center;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    input {
+      padding: 6px;
+      width: 200px;
+    }
+
+    #submit {
+      padding: 6px 12px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+      margin-top: 20px;
+    }
+
+    .cell {
+      width: 90px;
+      height: 90px;
+      border: 1px solid #000;
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .message {
+      margin: 15px 0;
+      font-weight: bold;
+    }
+
+    .hide {
+      display: none;
+    }
